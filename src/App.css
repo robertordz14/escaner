@@ -1,0 +1,38 @@
+.MuiButton-contained{
+  background-color:#fab719 !important;
+}
+.MuiButton-contained:hover{
+  background-color:#247dd0 !important;
+}
+
+.escaneador{
+  /* display: flex !important;
+  text-align: center !important;
+  justify-content: center !important; */
+  align-content: center !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* height: 20%; */
+  
+}
+.lector {
+  align-content: center !important;
+  align-items: center !important;
+  background: #fab719;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: -50px !important;
+}
+.lector > section {
+  height: 300px !important;
+}
+.MuiButton-root{
+  background-color:#fab719 !important;
+  margin-top: 60px;
+}
+.MuiButton-root:hover{
+  background-color:#247dd0 !important;
+}
