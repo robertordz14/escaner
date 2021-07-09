@@ -40,7 +40,7 @@ function App() {
     function alerta(){
       var otros = window.confirm("Codigo QR escaneado con exito, ¿desea abrir la página?");
       if (otros === true) {
-           window.open(qrscan)
+           window.location.href=(qrscan)
         // console.log(qrscan);
        } else {
          window.alert("Escaneo cancelado")
