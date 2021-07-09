@@ -8,7 +8,9 @@ function App() {
     const handleScan = data => {
         if (data) {
             setQrscan(data)
-            alerta()
+            if(qrscan !== "Ningun QR escaneado"){
+              alerta()
+            }
         }
     }
     const handleError = err => {
@@ -38,7 +40,8 @@ function App() {
     function alerta(){
       var otros = window.confirm("Codigo QR escaneado con exito, ¿desea abrir la página?");
       if (otros === true) {
-        window.open(qrscan)
+           window.open(qrscan)
+        // console.log(qrscan);
        } else {
          window.alert("Escaneo cancelado")
       }
